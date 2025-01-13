@@ -17,3 +17,7 @@ build-backend = "pdm.backend"
 
 [tool.pdm]
 distribution = true
+
+[project.urls]
+Homepage = "https://github.com/stundrg/stundrg-check-os-ver"
+Issues = "https://github.com/stundrg/stundrg-stundrg-check-os-ver/issues"
