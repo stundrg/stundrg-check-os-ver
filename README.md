@@ -84,5 +84,7 @@ $ pip install .
 $ git add<FILE_NAME>
 $ git push
 $ pdm publish
+Username:__token__
+password : Token
 ```
 
