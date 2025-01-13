@@ -1,6 +1,8 @@
 # stundrg-check-os-ver
 - Detects and outputs the os version.
 
+```
+
                                          :.                           
                                         :=:                           
                                        :-==                           
@@ -53,6 +55,7 @@
  ...  .    ... .:....    ......                                       
 .-:=-----:.::=:====--::::===-:::::::::-:.    
 
+```
 ### Use
 
 ```python
