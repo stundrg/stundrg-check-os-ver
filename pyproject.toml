@@ -27,3 +27,9 @@ Issues = "https://github.com/stundrg/stundrg-stundrg-check-os-ver/issues"
 stundrg-hi = "stundrg_check_os_ver.hi:hi"
 stundrg-random = "stundrg_check_os_ver.hi:random_pic"
 stundrg-os-ver = "stundrg_check_os_ver.osver:get_os_pretty_name"
+
+[dependency-groups]
+test = [
+    "pytest>=8.3.4",
+    "pytest-cov>=6.0.0",
+]
