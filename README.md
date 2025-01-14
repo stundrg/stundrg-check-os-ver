@@ -84,4 +84,7 @@ $ pdm publish
 Username:__token__
 password : Token
 ```
-
+### Ref
+- https://pdm-project.org/en/latest/
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+- console_scripts
