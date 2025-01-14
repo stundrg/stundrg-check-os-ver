@@ -71,8 +71,6 @@ art = """
                                                             ..-....           ...--...           ...
                                                             .-...             ...--...              
 """
-def hi2:
-    print(art)
 
 import random
 from check_os_ver.hi import hi as hi1
