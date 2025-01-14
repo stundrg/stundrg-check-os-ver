@@ -5,7 +5,163 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:6e3746c7427353cd94cfd6c1a5a6309fdfd871714e3b1213ded2befc6ef522a0"
+content_hash = "sha256:2697430fb628a94305f4e5b649ed2a95d30a87d8f7e29f023720ac1b265b26b2"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
+
+[[package]]
+name = "check-os-ver"
+version = "0.3.0"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+dependencies = [
+    "check-os-ver",
+    "cho-check-os-ver",
+    "hj-check-os-version",
+    "jacob-os-version-check",
+    "lucas-check-os-ver",
+    "nunininu-check-os-ver",
+    "ppabam-check-os-ver>=0.2.0",
+    "seo-check-os-version",
+    "stundrg-check-os-ver",
+]
+files = [
+    {file = "check_os_ver-0.3.0-py3-none-any.whl", hash = "sha256:989a56659053c403f58269da6585443ab972627b23b16faba1d279880ea2530f"},
+    {file = "check_os_ver-0.3.0.tar.gz", hash = "sha256:e9c04297da333e5eff0cc7719075acfca2b2ec893f9efb9d07ddc3a314d82bae"},
+]
+
+[[package]]
+name = "cho-check-os-ver"
+version = "0.3.8.1"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+dependencies = [
+    "check-os-ver>=0.2.1",
+    "hj-check-os-version>=0.2.0",
+    "jacob-os-version-check>=0.2.4",
+    "lucas-check-os-ver>=0.2.0",
+    "nunininu-check-os-ver>=0.2.0",
+    "seo-check-os-version>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+]
+files = [
+    {file = "cho_check_os_ver-0.3.8.1-py3-none-any.whl", hash = "sha256:9d206029f4501c5105ae72d136a929850ee2fdb7ddbd5cc5099b26ba8264e6c4"},
+    {file = "cho_check_os_ver-0.3.8.1.tar.gz", hash = "sha256:2cc0cf29f25d093614ce67fcd190f4f295e8aa59e675980d01a7e82d93c5c97e"},
+]
+
+[[package]]
+name = "hj-check-os-version"
+version = "0.3.5"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+dependencies = [
+    "check-os-ver>=0.2.1",
+    "cho-check-os-ver>=0.2.3",
+    "jacob-os-version-check>=0.2.4",
+    "lucas-check-os-ver>=0.2.1",
+    "nunininu-check-os-ver>=0.3.0",
+    "ppabam-check-os-ver>=0.2.0",
+    "seo-check-os-version>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+]
+files = [
+    {file = "hj_check_os_version-0.3.5-py3-none-any.whl", hash = "sha256:1b0497f39ab231f918a91e547b33461ebb84987be4650f95eeaffb188e5a2f11"},
+    {file = "hj_check_os_version-0.3.5.tar.gz", hash = "sha256:19a1c12ae2df0a50490171232b1c04bb09dd50fc2bde0d09b18ed689cae60a37"},
+]
+
+[[package]]
+name = "jacob-os-version-check"
+version = "0.3.5"
+requires_python = ">=3.10"
+summary = "Detects and outputs the os vesion."
+groups = ["default"]
+dependencies = [
+    "check-os-ver>=0.2.1",
+    "cho-check-os-ver>=0.2.3",
+    "hj-check-os-version>=0.2.1",
+    "lucas-check-os-ver>=0.2.1",
+    "nunininu-check-os-ver>=0.3.0",
+    "seo-check-os-version>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+]
+files = [
+    {file = "jacob_os_version_check-0.3.5-py3-none-any.whl", hash = "sha256:f4e1abcb4f1f0789c23826130e0dac386ce8bacb87df475d74e58e0f361128e9"},
+    {file = "jacob_os_version_check-0.3.5.tar.gz", hash = "sha256:2da85aea1711784f45b89668cfec516d675eea6bbce39c544dc03273a768742f"},
+]
+
+[[package]]
+name = "lucas-check-os-ver"
+version = "0.3.5"
+requires_python = ">=3.10"
+summary = "Detects and outputs the os version"
+groups = ["default"]
+dependencies = [
+    "check-os-ver>=0.2.1",
+    "cho-check-os-ver>=0.2.3",
+    "hj-check-os-version>=0.2.1",
+    "jacob-os-version-check>=0.2.4",
+    "nunininu-check-os-ver>=0.3.0",
+    "ppabam-check-os-ver>=0.2.0",
+    "seo-check-os-version>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+]
+files = [
+    {file = "lucas_check_os_ver-0.3.5-py3-none-any.whl", hash = "sha256:71fc1d902e84a3449d080766ba79c3da8d41f18a26cd92d64badf1d6d3331ea8"},
+    {file = "lucas_check_os_ver-0.3.5.tar.gz", hash = "sha256:2c48c8cd91d81abe67c9133753b69eb92f4b4a4f1cd0764047324999d493b0ed"},
+]
+
+[[package]]
+name = "nunininu-check-os-ver"
+version = "0.3.3"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+dependencies = [
+    "check-os-ver>=0.2.1",
+    "cho-check-os-ver>=0.2.3",
+    "hj-check-os-version>=0.2.1",
+    "jacob-os-version-check>=0.2.4",
+    "lucas-check-os-ver>=0.2.1",
+    "seo-check-os-version>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+]
+files = [
+    {file = "nunininu_check_os_ver-0.3.3-py3-none-any.whl", hash = "sha256:44b6bdedb710483bc9d3e46c615cce813dc8298796e1dba1152da4cd8ad57cf0"},
+    {file = "nunininu_check_os_ver-0.3.3.tar.gz", hash = "sha256:5ec4a2a12dfa5ed169d244f6c18cd8689d851ed4720fe058e3ff54f15be8598d"},
+]
+
+[[package]]
+name = "ppabam-check-os-ver"
+version = "0.3.0"
+requires_python = ">=3.10"
+summary = "Detects and outputs the os version."
+groups = ["default"]
+dependencies = [
+    "check-os-ver>=0.2.1",
+    "cho-check-os-ver>=0.2.3",
+    "hj-check-os-version>=0.3.1",
+    "jacob-os-version-check>=0.2.4",
+    "lucas-check-os-ver>=0.2.1",
+    "nunininu-check-os-ver>=0.3.0",
+    "seo-check-os-version>=0.2.0",
+    "stundrg-check-os-ver>=0.2.3",
+]
+files = [
+    {file = "ppabam_check_os_ver-0.3.0-py3-none-any.whl", hash = "sha256:6ddc5d307528efe1e9fafdd47b604690e88b4fc20e9f475aed3e20664d8371f1"},
+    {file = "ppabam_check_os_ver-0.3.0.tar.gz", hash = "sha256:0bbb387665dd8c87dec833e1eacfaa7138c7435af9adf5b68943ff532cc1195b"},
+]
+
+[[package]]
+name = "seo-check-os-version"
+version = "0.2.4"
+requires_python = ">=3.10"
+summary = "Default template for PDM package"
+groups = ["default"]
+files = [
+    {file = "seo_check_os_version-0.2.4-py3-none-any.whl", hash = "sha256:47992da18b4c33a5511feb1017e19bf2d7e205e7d48ef0b165547c01d22ae4e6"},
+    {file = "seo_check_os_version-0.2.4.tar.gz", hash = "sha256:50014a6b1eef9fab1603df9ef3dac4629083af45b79d923c68ab8b6396f94edb"},
+]
