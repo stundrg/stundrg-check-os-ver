@@ -82,6 +82,9 @@ from nunininu_check_os_ver.hi import hi as hi6
 from seo_check_os_version.hi import hi as hi7
 
 def hi():
+    print(art)
+
+def random_pic():
     say_hi = [hi1,hi2,hi3,hi4,hi5,hi6,hi7]
 
     random.choice(say_hi)()
