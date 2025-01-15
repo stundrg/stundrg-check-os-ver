@@ -1,4 +1,7 @@
-def get_os_pretty_name() -> str:
+import sys
+import platform
+
+def get_os_linux() -> str:
     with open('/etc/os-release', 'r') as f:
         for line in f:
             if line.startswith('PRETTY_NAME='):
