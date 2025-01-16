@@ -1,6 +1,6 @@
 [project]
 name = "stundrg-check-os-ver"
-version= "0.4.1"
+version= "0.4.2"
 description = "Utility that checks the name and version of the operating system."
 authors = [
     {name = "khr0106", email = "kanghr990106@gmail.com"},
