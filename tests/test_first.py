@@ -1,4 +1,4 @@
-from stundrg_check_os_ver.osver import get_os_pretty_name
+from stundrg_check_os_ver.osver import get_os_ver
 
 def test_first():
     v = get_os_pretty_name()
