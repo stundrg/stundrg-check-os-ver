@@ -3,12 +3,21 @@ import subprocess
 import platform
 
 def get_os_ver() -> str:
-    if sys.platform.lower() == "windows"
+    platform_name = sys.platform.lower()
+    if "win" in platform_name:
     return get_os_windows()
+    elif "linux" in platform_name:
+    return get_os_linux()
+    elif "darwin" in platform_name:
+    return get_os_macos()
 
 def get_os_windows() -> str:
-    return f"{Get-ComputerInfo | Select-Object WindowsProductName, WindowsVersion, WindowsBuildLabEx}"
-
+    command = "Get-ComputerInfo | Select-Object -Property WindowsProductName, WindowsVersion, WindowsBuildLabEx"
+    result = subprocess.run(
+        ["powershell", "-Command", command],
+        capture_output=True,
+        text=True
+    )
 def get_os_linux() -> str:
     with open('/etc/os-release', 'r') as f:
         for line in f:
